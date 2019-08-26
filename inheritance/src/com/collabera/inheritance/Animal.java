@@ -9,6 +9,8 @@ public class Animal {
 	private double speed;
 	private String sound;
 	
+	public Flys flyingType;
+	
 	public String getName() {
 		return name;
 	}
@@ -52,6 +54,14 @@ public class Animal {
 	
 	private void bePrivate() {
 		System.out.println("I'm the private method");
+	}
+	
+	public String tryToFly() {
+		return flyingType.fly();
+	}
+	
+	public void setFlyingAbility(Flys newFlyType) {
+		flyingType = newFlyType;
 	}
 
 }
