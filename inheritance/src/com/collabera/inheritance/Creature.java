@@ -21,7 +21,7 @@ public abstract class Creature {
 		public abstract void setName(String newName);
 		public abstract String getName();
 		
-		public abstract void setHeight(double newheight);
+		public abstract void setHeight(double newHeight);
 		public abstract double getHeight();
 		
 		public abstract void setWeight(double newWeight);
