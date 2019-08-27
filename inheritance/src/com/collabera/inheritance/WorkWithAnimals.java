@@ -6,6 +6,13 @@ public class WorkWithAnimals {
 
 	public static void main(String[] args) {
 		
+		Animal pup = new Dog();
+		Animal bird = new Bird();
+		
+		System.out.println(pup.tryToFly());
+		System.out.println(bird.tryToFly());
+
+		
 		Dog fido = new Dog();
 		
 		fido.setName("Fido");

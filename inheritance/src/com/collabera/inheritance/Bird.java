@@ -6,7 +6,8 @@ public class Bird extends Animal{
 		super();
 		
 		setSound("Tweet");
-		 flyingType = new ItFlys();
+		 
+		flyingType = new ItFlys();
 
 	}
 
